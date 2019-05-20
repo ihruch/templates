@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Pied Piper</title>
+  <link rel="stylesheet" href="vendor/styles/fonts.css" />
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+  <style>
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: "GothamNarrow-Book", sans-serif;
+        font-weight: 500;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+    </style>
+  <link rel="stylesheet" href="styles/style.css" />
+  <link rel="stylesheet" href="styles/overlay.css" />
+  <link rel="stylesheet" href="styles/media.css" />
+  <link rel="icon" type="image/png" href="favicon.png" />
+</head>
+
+<body>
+  <header class="header">
+
+    <div class="video-wrapper">
+      <video class="bg-video" 
+        src="videos/video.mp4" 
+        autoplay="" loop="" muted=""
+      ></video>
+    </div>
+
+    <div class="title">
+      <h1>PiperNet Is Here</h1>
+      <p class="sub">Follow us into the future.</p>
+    </div>
+
+    <div class="logo-wrapper">
+      <a href="#"><img src="images/logo.svg" alt="logo"></a>
+    </div>
+
+    <div class="home-header-container">
+      <div class="nav-bar-links">
+        <a class="nav-bar-link" href="#problem">the problem</a>
+        <span class="divider">|</span>
+        <a class="nav-bar-link tech-anchor" href="#tech">the tech</a>
+        <span class="divider">|</span>
+        <a class="nav-bar-link who-we-are-anchor" href="#team">the team</a>
+      </div>
+    </div>
+
+    <div class="mobile-nav-button" onclick="openNav()">
+      <i class="fa fa-bars"></i>
+    </div>
+
+  </header>
+
+
+  <div class="sections">
+
+    <div class="welcome">
+      <div class="inner">
+        <h3>Welcome to the web you never knew you wanted</h3>
+        <div class="icons">
+          <div class="icon ">
+              <h4><strong>You</strong> own your data</h4>
+              <img src="images/icon-data.png">
+              <p>Hidden from the
+      Hoolis™ of the world</p>
+          </div>
+          <div class="icon ">
+              <h4><strong>You</strong> control your identity</h4>
+              <img src="images/icon-identity.png">
+              <p>Decide what private
+      information is made public</p>
+          </div>
+          <div class="icon ">
+              <h4><strong>You</strong> have the power</h4>
+              <img src="images/icon-power.png">
+              <p>With decentralized apps
+      and storage to make the
+      internet the fastest it can be</p>
+          </div>
+        </div>
+      </div>
+    </div> 
+
+
+
+    <div class="problem">
+        <div class="inner">
+            <div class="content">
+                <h2 id="problem">The Problem</h2>
+                <p>Beneath the flashy homepages of your favorite sites lurk Hooli™ and other
+                    evil corporations out to hoard and sell your <strong>most personal data.</strong></p>
+                <p>What was built to be the ultimate platform for the free sharing of knowledge
+                    has turned into a money-hungry monster feasting on our privacy and freedom.</p>
+                <h5>But fear not, for Pied Piper has the answer! And it’s <i>simple</i>:</h5>
+                <p>An autonomous peer-to-peer network featuring distributed storage powered by
+                    universal compression, accelerated scheduling allocation, and end-to-end encryption.</p>
+                <h5 class="no-margin">Put even simpler — it’s the internet, <strong>completely decentralized.</strong></h5>
+                <p class="sub">(Still not getting it? <a class="link-out" href="#">Click here</a>).</p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="tech">
+      <div class="inner">
+        <div class="content">
+          <h2 id="tech">The Tech</h2>
+          <h6>Only Pied Piper has the necessary tools to build the internet of the future, today.</h6>
+    
+          <div class="icons">
+            <div class="icon">
+              <div class="img-icon">
+                <img src="images/icon-peer.png" alt="peer-to-peer">
+              </div>
+              <div class="description dir-right">
+                <p class="title"><strong>P2P Computer Communication Patent</strong></p>
+                <p>Pied Piper's decentralized internet is built upon a patented foundation of peer-to-peer computer communication. This is the basis of the "internet we deserve."‎</p>
+              </div>
+            </div>
+    
+            <div class="icon">
+              <div class="description dir-left">
+                <p class="title"><strong>Award-Winning Middle-Out Compression</strong></p>
+                <p>Our revolutionary middle-out compression was the missing piece preventing Peter and Gavin from pursuing their original patent. After shattering the theoretical limit of compression at TechCrunch Disrupt, we’re now able to transport even the most complex data files across our network within seconds.‎</p>
+              </div>
+              <div class="img-icon">
+                <img src="images/icon-compression.png" alt="compression">
+              </div>
+            </div>
+    
+            <div class="icon">
+              <div class="img-icon">
+                <img src="images/icon-storage.png" alt="storage">
+              </div>
+              <div class="description dir-right">
+                <p class="title"><strong>Distributed Storage</strong></p>
+                <p>Middle-out reduces the size of your files so we can distribute, store, and reassemble them seamlessly across our network. Not to mention your data is fully encrypted and totally redundant across our storage nodes.‎</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+    <div class="team">
+      <div class="inner">
+        
+        <div class="content">
+          <h2 id="team">The Team</h2>
+          <h6>Meet the Pipers</h6>
+
+          <div class="photos-wrapper">
+            <div class="photo who-we-are-info">
+              <div class="img-photo">
+                <img
+                  src="images/photo-richard.png" alt="Richard Hendricks"/>
+              </div>
+              <p>Richard Hendricks<br /><i>Founder &amp; CEO</i></p>
+            </div>
+              <div class="photo who-we-are-info">
+                <div class="img-photo">
+                  <img src="images/jared.png" alt="Jared Dunn" />
+                </div>
+                <p>Jared “Donald” Dunn<br /><i>Chief Operating Officer</i></p>
+              </div>
+              <div class="photo who-we-are-info">
+                <div class="img-photo">
+                  <img src="images/monica.png" alt="Monica Hall" />
+                </div>
+                <p>Monica Hall<br /><i>Chief Financial Officer</i></p>
+              </div>
+              <div class="photo who-we-are-info">
+                <div class="img-photo">
+                  <img src="images/chugtai.png" alt="Dinesh Chugtai" />
+                </div>
+                <p>Dinesh Chugtai<br /><i>Senior Programmer</i></p>
+              </div>
+              <div class="photo who-we-are-info">
+                <div class="img-photo">
+                  <img src="images/gilfoyle.png" alt="Bertram Gilfoyle" />
+                </div>
+                <p>Bertram Gilfoyle<br /><i>Chief Systems Architect</i></p>
+              </div>
+              <div class="photo who-we-are-info">
+                <div class="img-photo">
+                  <img src="images/bighetti.png" alt="Nelson Bighetti" />
+                </div>
+                <p>
+                  Nelson “Big Head” Bighetti<br /><i>Majority Investor</i>
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <div class="social-icons">
+            <a href="#">
+            <span class="icon-wrapper twitter">
+              <i class="fa fa-twitter footer-icon"></i>
+            </span>
+            </a>
+
+            <a href="#">
+            <span class="icon-wrapper facebook">
+              <i class="fa fa-facebook footer-icon"></i>
+            </span>
+            </a>
+
+            <a href="#">
+            <span class="icon-wrapper instagram">
+              <i class="fa fa-instagram footer-icon" aria-hidden="true"></i>
+            </span>
+            </a>
+        </div>
+        <p class="footer-text">
+            All other trademarks and copyrights are the property of their
+            respective owners. Use of these names, trademarks and brands does not
+            imply endorsement.
+        </p>
+      </footer>
+
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <a href="#problem" onclick="closeNav()">the problem</a>
+          <a href="#tech" onclick="closeNav()">the tech</a>
+          <a href="#team" onclick="closeNav()">the team</a>
+        </div>
+      </div>
+      <script>
+        function openNav() {
+          document.getElementById("myNav").style.height = "100%";
+        }
+      
+        function closeNav() {
+          document.getElementById("myNav").style.height = "0%";
+        }
+      </script>
+
+  </div>
+  
+
+
+</body>
+
+</html>

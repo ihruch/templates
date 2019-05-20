@@ -1,0 +1,187 @@
+
+@media (max-width: 1280px) {
+    h2 {
+      font-size: 67px;
+    }
+  
+    h6 {
+      font-size: 25px;
+    }
+  
+    h4 {
+      font-size: 25px;
+    }
+  
+    .inner {
+      max-width: 95%;
+    }
+  }
+
+
+
+@media (max-width: 1080px) {
+    h2 {
+      font-size: 67px;
+    }
+  
+    h5 {
+      font-size: 29px;
+    }
+  
+    .inner {
+      max-width: 90%;
+    }
+  
+    .header {
+      height: 420px;
+    }
+  
+    .header .logo-wrapper {
+      left: 50%;
+      top: 44px;
+      transform: translateX(-50%);
+    }
+  
+    .header .home-header-container {
+      top: 110px;
+      right: 50%;
+      transform: translateX(50%);
+      font-size: 14px;
+      letter-spacing: 0.7px;
+    }
+  
+    .welcome .icon {
+      float: none;
+      width: 45%;
+      display: inline-block;
+    }
+  
+    .welcome .icon:last-child {
+      margin-top: 64px;
+    }
+  
+    .welcome .icons {
+      text-align: center;
+    }
+  
+    .problem p {
+      font-size: 21px;
+      white-space: normal;
+    }
+  
+    .tech .icon {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 30px;
+    }
+  
+    .tech .icon .description {
+      width: 100%;
+      order: 2;
+    }
+  
+    .tech .img-icon {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+@media (max-width: 639px) {
+    .inner {
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 767px) {
+    h1 {
+    font-size: 45px;
+    }
+
+    h2 {
+    font-size: 39px;
+    }
+
+    h4 {
+    font-size: 18px;
+    }
+
+    h5 {
+    font-size: 18px;
+    }
+
+    h6 {
+    font-size: 18px;
+    }
+
+    p {
+    font-size: 18px;
+    }
+
+    .inner {
+    max-width: 540px;
+    }
+
+    .tech h6 {
+    margin-bottom: 50px;
+    }
+
+    video {
+    display: none;
+    }
+
+    .header .nav-bar-links {
+    display: none;
+    }
+
+    .header .mobile-nav-button {
+    display: block;
+    }
+
+    .welcome {
+    background-color: #fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    }
+
+    .welcome .content h3 {
+    font-size: 31px;
+    }
+
+    .inner {
+    max-width: 540px;
+    }
+
+    .welcome .icons {
+    margin-top: 30px;
+    }
+
+    .welcome .icon {
+    width: 100%;
+    background-color: #eee;
+    padding: 30px 0;
+    margin-top: 0;
+    margin-bottom: 25px;
+    }
+
+    .welcome .icon p {
+    font-size: 18px;
+    }
+
+    .welcome .icon:last-child {
+    margin-top: 0;
+    }
+
+    .problem p {
+    font-size: 16px;
+    }
+
+    .footer-text {
+    width: 80%;
+    }
+    }
+
+    .tech .dir-right p,
+    .tech .dir-left p {
+        text-align: center;
+    }
+}
+
